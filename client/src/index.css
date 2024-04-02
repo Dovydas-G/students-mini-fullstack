@@ -1,0 +1,51 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container {
+  padding: 1rem 2rem;
+}
+
+header {
+  border-bottom: 0.1rem solid #ccc;
+  font-size: 2rem;
+  line-height: 1em;
+}
+
+main {
+  display: flex;
+  min-height: calc(100vh - 7.1rem);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+
+form > * {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+
+button {
+  height: 5rem;
+  width: 10rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  
+}
+
+.result {
+  font-size: 4rem;
+}
